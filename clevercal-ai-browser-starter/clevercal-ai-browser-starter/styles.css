@@ -1,0 +1,18 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial}
+.app{min-height:100dvh;background:#0b0b0b;color:#fff;display:flex;flex-direction:column}
+.container{padding:24px;max-width:920px;margin:0 auto}
+.logo{display:flex;gap:12px;align-items:center;margin:4px 0 16px}
+.logo img{width:44px;height:44px}
+.logo h1{margin:0;font-size:20px;letter-spacing:.3px}
+.logo p{margin:0;color:#c9c9c9;font-size:12px}
+.card{background:#141414;border:1px solid #222;padding:16px;border-radius:16px;box-shadow:0 6px 30px rgba(255,0,0,.08);margin-bottom:14px}
+.card h2{margin:0 0 8px}
+.kcal{display:flex;align-items:baseline;gap:8px;margin:6px 0 10px}
+.kcal strong{font-size:34px}
+.row{display:flex;gap:8px}
+input{flex:1;padding:10px 12px;border-radius:12px;border:1px solid #333;background:#0f0f0f;color:#fff}
+button{padding:10px 14px;border-radius:12px;border:1px solid #e11; background:#e11;color:#fff;cursor:pointer}
+button.ghost{background:transparent;border-color:#444}
+.nav{position:sticky;bottom:0;display:flex;gap:8px;justify-content:space-around;background:#0d0d0d;border-top:1px solid #1d1d1d;padding:10px}
+.nav button{flex:1;background:#111;border:1px solid #333}
+.nav .active{border-color:#e11}
