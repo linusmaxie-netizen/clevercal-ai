@@ -9,17 +9,17 @@ const features = [
   {
     icon: "🔄",
     title: "Circadian Stacking",
-    copy: "Drei Phasen passen sich deinem 24h-Rhythmus an und modulieren Energie, Fokus und Regeneration im richtigen Moment."
+    copy: "Drei Phasen synchronisieren sich mit deinem 24-Stunden-Rhythmus und modulieren Energie, Fokus und Regeneration exakt zum richtigen Zeitpunkt."
   },
   {
     icon: "🧪",
     title: "Klinisch dosierte Wirkstoffe",
-    copy: "Laborgeprüfte Aminos, Adaptogene und Elektrolyte in pharmagerechter Bioverfügbarkeit – ohne Füllstoffe."
+    copy: "Laborgeprüfte Aminosäuren, Adaptogene und Elektrolyte in pharmazeutischer Bioverfügbarkeit – ohne Füllstoffe."
   },
   {
     icon: "📡",
     title: "Sensor Ready",
-    copy: "rythm3 synchronisiert sich mit deiner Wearable-Data, um individuelle Mikronährstoff-Impulse zu steuern."
+    copy: "rythm3 synchronisiert sich mit deinen Wearable-Daten, um individuelle Mikronährstoff-Impulse zu steuern."
   }
 ];
 
@@ -27,21 +27,21 @@ const products = [
   {
     phase: "Phase 01",
     name: "Dawn Charge",
-    description: "Aktiviert Cortisol & Dopamin sanft für einen fokussierten Start ohne Crash.",
+    description: "Aktiviert Cortisol und Dopamin sanft für einen fokussierten Start ohne Crash.",
     benefits: ["B-Vitamin-Komplex", "Adaptogen-Komplex aus Rhodiola & L-Theanin", "Bioverfügbares Magnesium"],
     price: "€38"
   },
   {
     phase: "Phase 02",
     name: "Flow Sustain",
-    description: "Stabile Energie & Mood Support für den intensiven Tagesabschnitt.",
+    description: "Stabile Energie und Mood-Support für den intensiven Tagesabschnitt.",
     benefits: ["Precision Aminos", "Elektrolyt-Balance", "Natürliche Koffein-Mikrodosierung"],
     price: "€42"
   },
   {
     phase: "Phase 03",
     name: "Night Restore",
-    description: "Schlaf- & Recovery-Komplex für tiefere REM- und Delta-Phasen.",
+    description: "Schlaf- und Recovery-Komplex für tiefere REM- und Delta-Phasen.",
     benefits: ["GABA & Glycin", "Ashwagandha KSM-66", "Melatonin-Matrix 0,5 mg"],
     price: "€44"
   }
@@ -180,22 +180,22 @@ const ScienceSection = () => (
       <span className="eyebrow">Philosophie</span>
       <h2>Wo Chronobiologie auf Performance trifft.</h2>
       <p>
-        rythm3 wird zusammen mit Sportwissenschaftler:innen und Neurowissenschaftler:innen entwickelt. Jedes Batch ist transparent
+        rythm3 wird gemeinsam mit Sportwissenschaftler:innen und Neurowissenschaftler:innen entwickelt. Jede Charge ist transparent
         rückverfolgbar – von der Quelle bis zum Laborbericht.
       </p>
     </div>
     <div className="science-grid">
       <article className="science-card">
         <h3>01 — Diagnostics</h3>
-        <p>Blutwerte, HRV und Schlafdaten formen deinen individuellen Supplement-Pfad.</p>
+        <p>Blutwerte, HRV und Schlafdaten formen deinen individuellen Supplement-Fahrplan.</p>
       </article>
       <article className="science-card">
         <h3>02 — Formulation</h3>
-        <p>Wirkstoffe werden nach Tageszeit clustert, um Peaks und Plateaus präzise auszubalancieren.</p>
+        <p>Wirkstoffe werden nach Tageszeit geclustert, um Peaks und Plateaus präzise auszubalancieren.</p>
       </article>
       <article className="science-card">
         <h3>03 — Integration</h3>
-        <p>App-Sync & Wearable-APIs liefern Mikro-Adjustments für deinen Alltag und Zyklus.</p>
+        <p>App-Sync und Wearable-APIs liefern Mikro-Adjustments für deinen Alltag und Zyklus.</p>
       </article>
     </div>
   </section>
@@ -227,7 +227,7 @@ const CTASection = () => (
       <span className="eyebrow">Ready, Set, Sync</span>
       <h2>Bring deinen Körper in seinen natürlichen Takt.</h2>
       <p>
-        Sichere dir Early-Access auf das abonnementbasierte rythm3-System mit exklusiven Coachings und Wearable-Integrationen.
+        Sichere dir Early Access für das abonnementbasierte rythm3-System mit exklusiven Coachings und Wearable-Integrationen.
       </p>
       <div className="cta-group">
         <button>Early Access sichern</button>
